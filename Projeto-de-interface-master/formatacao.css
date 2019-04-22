@@ -1,0 +1,30 @@
+* {
+
+}
+#curriculo{
+    background-color: winter;
+
+    width: 50%;
+    margin: 0px auto;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .nome {
+    float: left;
+    padding-top: 5%;
+  }
+  .dados-pessoais {
+
+    float: right;
+    padding-left: 30%;
+  }
+.rodape{
+  background-color: #3333333;
+}
+h2, p{
+  padding-left: 10%;
+}
