@@ -1,0 +1,12 @@
+.fundo{
+  background-image: url('http://campos24horas.com.br/portal/wp-content/uploads/2015/12/for%C3%A7as-armadas.jpg');
+}
+
+.fundobranco{
+  background-color: white;
+}
+
+p{
+  font-size: 130px;
+  color: white;
+}
