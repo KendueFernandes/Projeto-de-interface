@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION["resposta2"] = $_REQUEST["resposta2"]
+?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
   <head>
@@ -28,7 +32,7 @@
       <form action="pergunta4.php" method="post">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
-          <label>Você gosta de praticar atividades físicas?</label><br>
+          <label>Você Trabalha e/ou estuda?</label><br>
           <select class="" name="reposta3">
             <option value="">Informe sua resposta</option>
             <option value="sim">Sim</option>

@@ -28,11 +28,11 @@
       <form action="pergunta2.php" method="post">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
-          <label>Você gosta de receber ordem/orientações?</label><br>
+          <label>Você é:</label><br>
           <select class="" name="reposta1">
             <option value="">Informe sua resposta</option>
-            <option value="sim">Sim</option>
-            <option value="não">Não</option>
+            <option value="sim">Homem</option>
+            <option value="não">Mulher</option>
           </select>
           <br>
 

@@ -1,4 +1,8 @@
-.<!DOCTYPE html>
+<?php
+session_start();
+$_SESSION["resposta5"] = $_REQUEST["resposta5"]
+?>
+<!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
   <head>
     <meta charset="utf-8">

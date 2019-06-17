@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION["resposta6"] = $_REQUEST["resposta6"]
+?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
   <head>
@@ -28,7 +32,7 @@
       <form action="pergunta8.php" method="post">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
-          <label>Você tem medo?</label><br>
+          <label>Para você, arriscar a vida pelo seu país seria um problema?</label><br>
           <select class="" name="reposta7">
             <option value="">Informe sua resposta</option>
             <option value="sim">Sim</option>

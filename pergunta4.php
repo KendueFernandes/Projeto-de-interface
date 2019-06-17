@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION["resposta3"] = $_REQUEST["resposta3"]
+?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
   <head>
@@ -28,7 +32,7 @@
       <form action="pergunta5.php" method="post">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
-          <label>O que você acha da ideia de ter que servir o Exército por 10 meses?</label><br>
+          <label>Para você, a ideia de estar no exercito é:</label><br>
           <select class="" name="reposta4">
             <option value="">Informe sua resposta</option>
             <option value="pessimo">Péssimo</option>
