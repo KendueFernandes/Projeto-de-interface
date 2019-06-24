@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="layout.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="validacao.js" charset="utf-8"></script>
   </head>
   <body class="fundo">
     <div class="container">
@@ -25,15 +28,16 @@
         </div> -->
 
       </div>
-      <form action="pergunta2.php" method="post">
+      <form action="pergunta2.php" method="post" id="formulario">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
           <label>Você é:</label><br>
-          <select class="" name="reposta1">
+          <select class="obrigatorio" name="reposta1">
             <option value="">Informe sua resposta</option>
             <option value="sim">Homem</option>
             <option value="não">Mulher</option>
           </select>
+          <span class="text-danger"></span>
           <br>
 
           <br><button type="submit" class="btn btn-primary">Próxima</button></br>
