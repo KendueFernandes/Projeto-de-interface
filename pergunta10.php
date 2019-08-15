@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION["resposta9"] = $_REQUEST["reposta9"]
+@$_SESSION["resposta9"] = $_REQUEST["resposta9"]
 ?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
@@ -9,6 +9,8 @@ $_SESSION["resposta9"] = $_REQUEST["reposta9"]
     <title></title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="layout.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="validacao.js" charset="utf-8"></script>
   </head>
   <body class="fundo">
     <div class="container">
@@ -29,16 +31,17 @@ $_SESSION["resposta9"] = $_REQUEST["reposta9"]
         </div> -->
 
       </div>
-      <form action="" method="post">
+      <form action="gravar_respostas.php" method="post" id="formulario">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
           <label>Caso seja recutrado para o exército, você ficaria:?</label><br>
-          <select class="" name="reposta10">
+          <select class="obrigatorio" name="resposta10">
             <option value="">Informe sua resposta</option>
             <option value="sim">Feliz</option>
             <option value="não">Triste</option>
             <option value="não">Indiferente</option>
           </select>
+          <span class="text-danger"></span>
           <br>
 
 

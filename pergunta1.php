@@ -32,7 +32,7 @@
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
           <label>Você é:</label><br>
-          <select class="obrigatorio" name="reposta1">
+          <select class="obrigatorio" name="resposta1">
             <option value="">Informe sua resposta</option>
             <option value="sim">Homem</option>
             <option value="não">Mulher</option>

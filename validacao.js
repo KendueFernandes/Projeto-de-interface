@@ -25,3 +25,10 @@ $(document).ready( function(){
     }); // fim do submit
 
 } ); // fim do ready
+
+/*
+importar validacao depois Jquey
+Colocar o formulario com id formulario
+Colocar o campo com a classe obrigatorio
+Na frente do campo tem que ter um span
+*/

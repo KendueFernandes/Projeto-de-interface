@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION["resposta1"] = $_REQUEST["resposta1"]
+@$_SESSION["resposta1"] = $_REQUEST["resposta1"]
 ?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
@@ -9,6 +9,8 @@ $_SESSION["resposta1"] = $_REQUEST["resposta1"]
     <title></title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="layout.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="validacao.js" charset="utf-8"></script>
   </head>
   <body class="fundo">
     <div class="container">
@@ -29,15 +31,17 @@ $_SESSION["resposta1"] = $_REQUEST["resposta1"]
         </div> -->
 
       </div>
-      <form action="pergunta3.php" method="post">
+        <form action="pergunta3.php" method="post" id="formulario">
       <div class="row">
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
           <label>Acordar cedo para você, seria um problema?</label><br>
-          <select class="" name="reposta2">
-            <option value="">Informe sua resposta</option>
+          <select class="obrigatorio" name="resposta2">
+          <option value="">Informe sua resposta</option>
             <option value="sim">Sim</option>
             <option value="não">Não</option>
           </select>
+
+          <span class="text-danger"></span>
           <br>
 
 
