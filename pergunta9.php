@@ -36,7 +36,7 @@ session_start();
         <div class="col-sm-8 mx-auto bg-white mt-5 p-5">
           <label>Você gostaria de servir?</label><br>
           <select class="obrigatorio" name="resposta9">
-            <option value=""></option>
+            <option value="">Informe sua resposta</option>
             <option value="sim">Sim</option>
             <option value="não">Não</option>
           </select>

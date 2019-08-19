@@ -40,7 +40,6 @@ session_start();
             <option value="sim">Sim</option>
             <option value="não">Não</option>
           </select>
-
           <span class="text-danger"></span>
           <br>
 

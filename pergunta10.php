@@ -1,6 +1,6 @@
 <?php
 session_start();
-@$_SESSION["resposta9"] = $_REQUEST["resposta9"]
+@$_SESSION["resposta9"] = $_REQUEST["resposta9"];
 ?>
 <!DOCTYPE html>
 <html lang="PT-BR" dir="ltr">
